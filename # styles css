@@ -1,32 +1,30 @@
 body {
+
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-}
-.container {
-    max-width: 600px;
-    margin: auto;
-    background-color: white;
-    padding: 10px;
+    text-align: center;
 }
 h1 {
-    text-aligin: center;
-    background-color: #e0ffe0;
-    padding: 10px;
-    border: 1px solid green;
-}
-.post {
-    border: 1px solid #ccc;
+    background-color: white;
+    border: 3px solid green;
+    display: inline-block;
+    padding: 10px 20px;
     margin-top: 20px;
-    background-color: #fff;
+    font-size: 2em;
+}
+.photo-feed {
+    width: 400px;
+    border: 2px solid red;
+    margin: 40px auto;
+    background-color: white;
+    padding: 10px;
 }
 .post-header {
     display: flex;
     Justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid pink;
 } 
 .post img{
     width: 100%;
